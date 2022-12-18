@@ -9,5 +9,5 @@ app.use(cors());
 
 app.use("/", userRoutes);
 
-app.listen(8000, () => console.log("API is working!"));
+app.listen(8000, () => console.log("API is working in port 8000!"));
 
